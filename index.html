@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Website</title>
-    	<style>
+<head>
+	<title>My Website</title>
+	<style>
+		/* Align the image to the right */
 		img {
-			float: right; /* align the image to the right */
-			display: block; /* set the image to display as a block element */
-			width: 100px; /* set the width of the image */
-			height: auto; /* set the height of the image to auto, to maintain aspect ratio */
-			margin-left: 10px; /* add some left margin to the image */
+			float: right;
+			display: block;
+			width: 100px;
+			height: auto;
+			margin-left: 10px;
 		}
 		
+		/* Set the background color and image */
 		body {
-			background-color: #f2f2f2; /* set the background color */
-			background-size: cover; /* scale the image to cover the entire background */
+			background-color: #f2f2f2;
+			background-size: cover;
+		}
+
+		/* Style the sections */
+		section {
+			padding: 20px;
+			margin-bottom: 20px;
+			border: 1px solid #ddd;
+			color: #333;
+			text-align: justify;
+		}
+
+		/* Set different background colors for each section */
+		#intro {
+			background-color: #f2f2f2;
+		}
+
+		#goals {
+			background-color: #e6f2ff;
+		}
+
+		#dev {
+			background-color: #ffe6cc;
 		}
 	</style>
-  </head>
-  <body>
-    <h1>My personal portfolio</h1>
-    <p>My name is Golden Ko</p>
-    <img src="profile.jpg" alt="My Funny Image">
-    <p>I am a student studying Information Technology and Business(ITB)at Hong Kong CityU SCOPE. </p>
-  </body>
-  <body2>
-    <h1>My Goals</h1>
-    <p>
-	    Becoming an IT consultant is my career path </p>
-	    <p>as I have a passion for technology and enjoy helping businesses improve their operations.</p> 
-	    <p>As an IT consultant, I would work with clients to identify their technology needs and recommend solutions to help them achieve their goals,</p>
-	  <p>such as, implementing new software systems to improving cybersecurity measures.</p>
-	    <p>There is also a high demand for skilled IT consultants in today's job market.
-	  </p>
-  </body2>
-	<body3>
-  	<p>Studying IT and business provides a unique combination of technical and business skills that are valuable in today's job market. </p>
-	<p>By learning about technology and how it can be used to improve business operations, </p>
-	<p>students can develop a well-rounded skill set that is essential for a successful career in IT, </p>
-	<p>particularly in roles that involve managing technology projects and working with clients to solve business problems.</p>
-	</body3>
+</head>
+<body>
+	<section id="intro">
+		<h1>My Personal Portfolio</h1>
+		<p>My name is Golden Ko</p>
+		<img src="profile.jpg" alt="My Funny Image">
+		<p>I am a student studying Information Technology and Business (ITB) at Hong Kong CityU SCOPE.</p>
+	</section>
+
+	<section id="goals">
+		<h1>My Goals</h1>
+		<p>Becoming an IT consultant is my career path as I have a passion for technology and enjoy helping businesses improve their operations. As an IT consultant, I would work with clients to identify their technology needs and recommend solutions to help them achieve their goals, such as implementing new software systems to improving cybersecurity measures. There is also a high demand for skilled IT consultants in today's job market.</p>
+	</section>
+
+	<section id="dev">
+		<h1>My Development</h1>
+		<p>Studying IT and business provides a unique combination of technical and business skills that are valuable in today's job market. By learning about technology and how it can be used to improve business operations, students can develop a well-rounded skill set that is essential for a successful career in IT, particularly in roles that involve managing technology projects and working with clients to solve business problems.</p>
+	</section>
+</body>
 </html>
